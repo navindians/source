@@ -1,9 +1,13 @@
+import React from "react";
 
-const SignUpPage = () => {  
-  return (
-    <div>
-      <h1>Sign Up</h1>
-    </div>
-  );
-}   
+class SignUpPage extends React.Component { 
+  render(){
+    return (
+      <div>
+        <h1>Sign Up</h1>
+        <input/>
+      </div>
+    );  
+}  
+} 
 export default SignUpPage;
